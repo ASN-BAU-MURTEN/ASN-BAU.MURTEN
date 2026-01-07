@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ASN-BAU-MURTEN</title>
+  <style>
+    body {font-family: Arial, sans-serif; margin: 0; background-color: #f2f2f2;}
+    header {background-color: #333; color: #fff; padding: 20px; text-align: center;}
+    h1 {margin: 0; font-size: 2em;}
+    main {padding: 20px;}
+    section {margin-bottom: 30px;}
+    .leistungen ul {list-style: none; padding: 0;}
+    .leistungen li {background: #fff; margin: 5px 0; padding: 10px; border-radius: 5px;}
+    .galerie {display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 10px;}
+    .galerie img {width: 100%; height: 200px; object-fit: cover; border-radius: 5px;}
+    .kontakt {background-color: #333; color: #fff; padding: 20px; border-radius: 5px;}
+    .kontakt p {margin: 5px 0;}
+    footer {background-color: #222; color: #ccc; text-align: center; padding: 10px;}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>ASN-BAU-MURTEN</h1>
+  <p>Baudienstleistungen in Murten – Gartenbau, Pflasterungen, Außenanlagenbau & Aushub</p>
+</header>
+
+<main>
+  <section class="leistungen">
+    <h2>Unsere Leistungen</h2>
+    <ul>
+      <li>Gartenbau & Landschaftsgestaltung</li>
+      <li>Pflasterungen & Terrassenbau</li>
+      <li>Außenanlagenbau & Renovierungen</li>
+      <li>Aushub- & Baggerarbeiten</li>
+    </ul>
+  </section>
+
+  <section class="galerie">
+    <h2>Projekt-Galerie</h2>
+<img src="https://images.unsplash.com/photo-1615874959474-d607d60fd98e?auto=format&fit=crop&w=800&q=60" alt="Gartenbau Projekt">
+<img src="https://images.unsplash.com/photo-1604714035812-0b4cf19b63d6?auto=format&fit=crop&w=800&q=60" alt="Pflasterung Beispiel">
+<img src="https://images.unsplash.com/photo-1504307652656-80c1d55c3a7e?auto=format&fit=crop&w=800&q=60" alt="Außenbereich Bauprojekt">
+<img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=60" alt="Baggerarbeiten Beispiel">
+  </section>
+
+  <section class="kontakt">
+    <h2>Kontakt</h2>
+    <p><strong>Ansprechpartner:</strong> Andy Singh</p>
+    <p><strong>Adresse:</strong> Grubenweg 1, 3280 Murten</p>
+    <p><strong>Telefon:</strong> 077 482 21 33</p>
+<p><strong>E-Mail:</strong> <a href="mailto:andreas.sing1@gmx.ch" style="color:white;">andreas.sing1@gmx.ch</a></p>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 ASN-BAU-MURTEN – Alle Rechte vorbehalten.</p>
+</footer>
+
+</body>
+</html>
+```
